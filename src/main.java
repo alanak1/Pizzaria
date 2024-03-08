@@ -27,5 +27,12 @@ public class main {
         Usuario clienteCinco = new Usuario("Kauanny", "4191980000");
         clienteCinco.setEndereco("Rua Porta Dobrada");
         clienteCinco.setDataNascimento("21/12/2002");
+
+        Produto pizzaProdutoUm = new Produto("Pizza de Brocolis", 25.00, 1, "Pizza tradicional de queijo com brocolis");
+
+
+        Produto pizzaProdutoDois = new Produto("Pizza Marguerita", 22.99, 1, "Pizza tradicional sabor Marguerita");
+
+        Produto pizzaProdutoTres = new Produto("Pizza de Peperoni", 29.90, 1, "Pizza tradicional sabor Calabresa");
     }
 }
